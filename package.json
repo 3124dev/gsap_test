@@ -1,0 +1,37 @@
+{
+  "name": "gsap_test",
+  "version": "1.0.0",
+  "description": "it is for the test of GSAP",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "ws",
+    "dev": "ws -p 8000 & webpack -w --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3124dev/gsap_test.git"
+  },
+  "keywords": [
+    "gsap"
+  ],
+  "author": "hubert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3124dev/gsap_test/issues"
+  },
+  "homepage": "https://github.com/3124dev/gsap_test#readme",
+  "dependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.3.4000"
+  }
+}
