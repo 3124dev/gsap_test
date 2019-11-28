@@ -1,0 +1,23 @@
+.study-animation-contianer {
+    position: relative;
+    height: 140px;
+    width: 120px;
+
+    .st0{fill:none;stroke:#333333;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#5B8DEF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st2{fill:#FFFFFF;stroke:#333333;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st3{fill:#5B8DEF;}
+    .st4{fill:none;stroke:#FFB300;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+    .study-lightning {
+        position: relative;
+    }
+    .study-char {
+        position: relative;
+    }
+    .char-eyes {
+        position: absolute;
+        top: 55px;
+        left: 0;
+    }
+}

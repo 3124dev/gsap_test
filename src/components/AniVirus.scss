@@ -1,0 +1,34 @@
+.virus-box {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: inline-block;
+    
+    .st01 {
+        fill: none;
+        stroke: #F06464;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+    }
+    .st02 {
+        fill: #F06464;
+    }
+
+    .left-eye {
+        position: absolute;
+        top: 17px;
+        left: 15px;
+    }
+    .right-eye {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .mouse {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+}

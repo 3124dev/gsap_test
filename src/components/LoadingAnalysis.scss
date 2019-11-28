@@ -1,0 +1,28 @@
+.loading-analysis-container {
+    position: relative;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+
+    .char-analysis-body-box {
+        width: 88px;
+    }
+    .char-analysis-note-box {
+        position: absolute;
+        width: 38px;
+        left: 9px;
+        bottom: 11px;
+    }
+    .char-analysis-pen-box {
+        position: absolute;
+        width: 34px;
+        right: 4px;
+        bottom: 20px;
+    }
+    .char-analysis-light-box {
+        position: absolute;
+        width: 10px;
+        left: 2px;
+        top: 2px;
+    }
+}

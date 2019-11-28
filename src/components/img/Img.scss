@@ -1,0 +1,638 @@
+%background {
+    display: inline-block;
+    background-image: url("assets/doctor_ui_pack.svg");
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+}
+
+%background-v2 {
+    display: inline-block;
+    background-image: url("assets/doctor_ui_pack_v2.svg");
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+}
+
+%card {
+    width: 260px;
+    height: 120px;
+}
+
+.img {
+    width: 100%;
+
+    .char-greeting {
+        @extend %background;
+        width: 52px;
+        height: 68px;
+        background-position: 0px 0px;
+    }
+
+    .logo-bodoc {
+        @extend %background;
+        width: 100px;
+        height: 37px;
+        background-position: -52px 0px;
+    }
+
+    .logo-b {
+        @extend %background;
+        width: 20px;
+        height: 25px;
+        background-position: -152px 0px;
+    }
+
+    .logo-mrp {
+        @extend %background;
+        width: 90px;
+        height: 24px;
+        background-position: -172px 0px;
+    }
+
+    .logo-b-color {
+        @extend %background;
+        width: 20px;
+        height: 25px;
+        background-position: -152px -25px;
+    }
+
+    .hamburger {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: 0px -68px;
+    }
+
+    .go-back {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -48px -68px;
+    }
+
+    .go-back-white {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -208px -68px;
+    }
+
+    .arrow-right-black {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -24px -68px;
+    }
+
+    .arrow-right-blue {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -256px -68px;
+    }
+
+    .arrow-right-small {
+        @extend %background;
+        width: 7px;
+        height: 10px;
+        background-position: -48px -567px;
+    }
+
+    .arrow-down-medium {
+        @extend %background;
+        width: 20px;
+        height: 20px;
+        background-position: -72px -68px;
+    }
+
+    .arrow-up-medium {
+        @extend %background;
+        width: 20px;
+        height: 20px;
+        background-position: -92px -68px;
+    }
+
+    .arrow-down-white {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -160px -68px;
+    }
+
+    .arrow-up-indigo {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -184px -68px;
+    }
+
+    .home-blue {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -400px -68px;
+    }
+
+    .home-black {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -400px -44px;
+    }
+
+    .refresh-black {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -376px -44px;
+    }
+
+    .close-black {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -376px -68px;
+    }
+    
+    .close-circle-white {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -448px -44px;
+    }
+    
+    .check-round {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -280px -68px;
+    }
+
+    .check-round-checked {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -304px -68px;
+    }
+
+    .check-line {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -328px -68px;
+    }
+
+    .check-line-checked {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -352px -68px;
+    }
+
+    .check-ellise {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -448px -68px;
+    }
+
+    .check-ellise-checked {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -472px -68px;
+    }
+
+    .check-box-small {
+        @extend %background;
+        width: 15px;
+        height: 15px;
+        background-position: -496px -68px;
+    }
+
+    .check-box-small-checked {
+        @extend %background;
+        width: 15px;
+        height: 15px;
+        background-position: -511px -68px;
+    }
+
+    .help-orange {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -55px -567px;
+    }
+
+    // MAIN CARD
+    .analysis-card {
+        @extend %background;
+        @extend %card;
+        background-position: 0px -92px;
+    }
+
+    .manual-card {
+        @extend %background;
+        @extend %card;
+        background-position: 0px -212px;
+    }
+
+    .study-card {
+        @extend %background;
+        @extend %card;
+        background-position: 0px -332px;
+    }
+
+    // INPUT PERSON PAGE
+    .job-grade-1 {
+        @extend %background;
+        width: 42px;
+        height: 61px;
+        background-position: 0px -452px;
+    }
+    .job-grade-2 {
+        @extend %background;
+        width: 42px;
+        height: 61px;
+        background-position: -42px -452px;
+    }
+    .job-grade-3 {
+        @extend %background;
+        width: 42px;
+        height: 61px;
+        background-position: -84px -452px;
+    }
+
+    // INPUT PRODUCT PAGE
+    .delete-tab {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -232px -68px;
+    }
+
+    // RECEIPT PAGE
+    .face {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -112px -68px;
+    }
+
+    .receipt {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -136px -68px;
+    }
+
+    // ANALYSIS PAGE
+    ._keep {
+        @extend %background;
+        width: 102px;
+        height: 90px;
+        background-position: -260px -92px;
+    }
+    ._revise {
+        @extend %background;
+        width: 102px;
+        height: 90px;
+        background-position: -260px -182px;
+    }
+    ._close {
+        @extend %background;
+        width: 102px;
+        height: 90px;
+        background-position: -260px -272px;
+    }
+    ._hold {
+        @extend %background;
+        width: 102px;
+        height: 90px;
+        background-position: -260px -362px;
+    }
+
+    .badge_keep {
+        @extend %background;
+        width: 54px;
+        height: 42px;
+        background-position: -168px -452px;
+    }
+    .badge_revise {
+        @extend %background;
+        width: 54px;
+        height: 42px;
+        background-position: -222px -452px;
+    }
+    .badge_close {
+        @extend %background;
+        width: 54px;
+        height: 42px;
+        background-position: -276px -452px;
+    }
+    .badge_hold {
+        @extend %background;
+        width: 54px;
+        height: 42px;
+        background-position: -330px -452px;
+    }
+    .score_info {
+        @extend %background;
+        width: 16px;
+        height: 16px;
+        background-position: -93px -567px;
+    }
+
+    .char-family {
+        @extend %background;
+        width: 86px;
+        height: 86px;
+        background-position: -434px -174px;
+    }
+    .char-money {
+        @extend %background;
+        width: 86px;
+        height: 86px;
+        background-position: -434px -260px;
+    }
+    .char-rainy {
+        @extend %background;
+        width: 86px;
+        height: 86px;
+        background-position: -434px -346px;
+    }
+
+    // CHECK PAGE
+    .mark_pass {
+        @extend %background;
+        width: 54px;
+        height: 54px;
+        background-position: 0px -513px;
+    }
+
+    .mark_fail {
+        @extend %background;
+        width: 54px;
+        height: 54px;
+        background-position: -54px -513px;
+    }
+
+    .mark_good {
+        @extend %background;
+        width: 60px;
+        height: 32px;
+        background-position: -108px -513px;
+    }
+
+    .badge__pass {
+        @extend %background;
+        width: 72px;
+        height: 52px;
+        background-position: -168px -492px;
+    }
+    .badge__fail {
+        @extend %background;
+        width: 72px;
+        height: 52px;
+        background-position: -240px -492px;
+    }
+    .badge__hold {
+        @extend %background;
+        width: 72px;
+        height: 52px;
+        background-position: -312px -492px;
+    }
+
+    // STUDY PAGE
+    .empty-plan {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -24px -567px;
+    }
+
+    // PUBLISH
+    .char-publish {
+        @extend %background;
+        width: 54px;
+        height: 78px;
+        background-position: -496px -92px;
+    }
+
+    // HAMBERGUER MENU
+    .mypage {
+        @extend %background;
+        width: 72px;
+        height: 48px;
+        background-position: -362px -92px;
+    }
+    .history {
+        @extend %background;
+        width: 72px;
+        height: 48px;
+        background-position: -362px -140px;
+    }
+    .contents {
+        @extend %background;
+        width: 72px;
+        height: 48px;
+        background-position: -362px -188px;
+    }
+    .guide {
+        @extend %background;
+        width: 72px;
+        height: 48px;
+        background-position: -362px -236px;
+    }
+    .about-mrp {
+        @extend %background;
+        width: 72px;
+        height: 48px;
+        background-position: -362px -284px;
+    }
+
+    // CONTENTS
+    .search-black {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -424px -68px;
+    }
+    .search-blue {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: -424px -44px;
+    }
+    .content-blue {
+        @extend %background;
+        width: 24px;
+        height: 24px;
+        background-position: 0px -567px;
+    }
+
+    // LOADING
+    .loading-char {
+        @extend %background;
+        width: 60px;
+        height: 82px;
+        background-position: -434px -92px;
+    }
+
+    // ABOUT BODOC
+    .stand-char-black {
+        @extend %background;
+        width: 46px;
+        height: 68px;
+        background-position: -434px -432px;
+    }
+    .stand-char {
+        @extend %background;
+        width: 46px;
+        height: 68px;
+        background-position: -480px -432px;
+    }
+    .paper-pile {
+        @extend %background;
+        width: 130px;
+        height: 90px;
+        background-position: -434px -500px;
+    }
+
+    /********************************************************************
+        doctor_ui_pack_v2
+    ********************************************************************/
+    .tab-home {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: 0px 0px;
+    }
+    .tab-analysis {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -32px 0px;
+    }
+    .tab-manual {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -64px 0px;
+    }
+    .tab-study {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -96px 0px;
+    }
+    .tab-menu {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -128px 0px;
+    }
+    // normal
+    .tab-home-inactive {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: 0px -32px;
+    }
+    .tab-analysis-inactive {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -32px -32px;
+    }
+    .tab-manual-inactive {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -64px -32px;
+    }
+    .tab-study-inactive {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -96px -32px;
+    }
+    .tab-menu-inactive {
+        @extend %background-v2;
+        width: 32px;
+        height: 32px;
+        background-position: -128px -32px;
+    }
+
+    /******************************************************************
+        CHARACTER
+    *******************************************************************/
+    .char-analysis-body {
+        @extend %background-v2;
+        width: 88px;
+        height: 88px;
+        background-position: -474px 0px;
+    }
+    .char-analysis-pen {
+        @extend %background-v2;
+        width: 34px;
+        height: 34px;
+        background-position: -562px 0px;
+    }
+    .char-analysis-note {
+        @extend %background-v2;
+        width: 38px;
+        height: 38px;
+        background-position: -562px -34px;
+    }
+    .char-analysis-light {
+        @extend %background-v2;
+        width: 10px;
+        height: 15px;
+        background-position: -562px -72px;
+    }
+
+    // TODO: ADD
+    .char-ox {
+        @extend %background-v2;
+        width: 92px;
+        height: 130px;
+        background-position: -600px 0px;
+    }
+    .char-ox {
+        @extend %background-v2;
+        width: 70px;
+        height: 98px;
+        background-position: -600px 0px;
+    }
+    .ox-sign-x {
+        @extend %background-v2;
+        width: 46px;
+        height: 46px;
+        background-position: -670px 0px;
+    }
+    .ox-sign-o {
+        @extend %background-v2;
+        width: 46px;
+        height: 46px;
+        background-position: -670px -46px;
+    }
+
+    .char-job-1 {
+        @extend %background-v2;
+        width: 42px;
+        height: 61px;
+        background-position: -758px 0px;
+    }
+    .char-job-2 {
+        @extend %background-v2;
+        width: 42px;
+        height: 61px;
+        background-position: -758px -61px;
+    }
+    .char-job-3 {
+        @extend %background-v2;
+        width: 42px;
+        height: 61px;
+        background-position: -758px -122px;
+    }
+}

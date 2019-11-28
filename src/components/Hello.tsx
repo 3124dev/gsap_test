@@ -1,9 +1,28 @@
 import * as React from "react";
 
+// import { AniManual } from "./AniManual";
+// import { LoadingAnalysis } from "./LoadingAnalysis";
+import { AniBug } from "./AniBug";
+import { AniVirus } from "./AniVirus";
+import { AniHold } from "./AniHold";
+import { AniStudy } from "./AniStudy";
+
+
 export interface HelloProps { compiler: string; framework: string; }
 
-export class Hello extends React.Component<HelloProps, {}> {
-    render() {
-        return <h1>Hello from {this.props.compiler} and {this.props.framework}!</h1>;
+export class Hello extends React.Component<HelloProps, {}> 
+{   
+    public render(): JSX.Element {
+        return (
+            <div>
+                <h1>Hello from {this.props.compiler} and {this.props.framework}!</h1>
+                <AniStudy />
+                {/* <LoadingAnalysis />
+                <AniManual /> */}
+                <AniHold />
+                <AniBug />
+                <AniVirus />
+            </div>
+        )
     }
 }

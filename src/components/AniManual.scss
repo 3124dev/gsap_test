@@ -1,0 +1,62 @@
+.manual-animation-contianer {
+    height: 240px;
+    padding-top: 10px;
+    
+    .roulette-container {
+        margin: 0 auto;
+        width: 222px;
+        height: 88px;
+        background-color: #EFEFEF;
+        border-radius: 4px;
+        padding: 6px;
+    
+        .roulette-box {
+            display: inline-block;
+            width: 70px;
+            height: 76px;
+            background-color: #fff;
+            border: 2px solid #EBEBEB;
+            border-radius: 2px;
+            overflow: hidden;
+            text-align: center;
+    
+            .char-box {
+                width: 42px;
+                height: 61px;
+                display: inline-block;
+            }
+    
+            h3 {
+                font-size: 14px;
+                line-height: 72px;
+                margin: 0;
+            }
+        }
+    }
+    .ox-container {
+        position: relative;
+        margin: 30px auto;
+        width: 70px;
+        height: 110px;
+    
+        .char-ox-box {
+            width: 70px;
+            height: 98px;
+        }
+    
+        .ox-char-arm {
+            position: absolute;
+            top: 40px;
+            right: 6px;
+        }
+        
+        .ox-sign-box {
+            position: absolute;
+            bottom: 12px;
+            left: 12px;
+            width: 46px;
+            height: 46px;
+            opacity: 0;
+        }
+    }
+}

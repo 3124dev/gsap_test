@@ -1,0 +1,42 @@
+.bug-box {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: inline-block;
+    
+    .st01 {
+        fill: none;
+        stroke: #FFB300;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+    }
+    .bug-legs {
+        position: absolute;
+    }
+    .left-leg0 {
+        top: 16px;
+        left: 8px;
+    }
+    .left-leg1 {
+        top: 24px;
+        left: 7px;
+    }
+    .left-leg2 {
+        top: 32px;
+        left: 8px;
+    }
+    .right-leg0 {
+        top: 16px;
+        right: 8px;
+    }
+    .right-leg1 {
+        top: 24px;
+        right: 7px;
+    }
+    .right-leg2 {
+        top: 32px;
+        right: 8px;
+    }
+}
