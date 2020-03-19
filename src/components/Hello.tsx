@@ -6,6 +6,7 @@ import { AniBug } from "./AniBug";
 import { AniVirus } from "./AniVirus";
 import { AniHold } from "./AniHold";
 import { AniStudy } from "./AniStudy";
+import { AniClaim } from "./AniClaim";
 
 
 export interface HelloProps { compiler: string; framework: string; }
@@ -16,6 +17,7 @@ export class Hello extends React.Component<HelloProps, {}>
         return (
             <div>
                 <h1>Hello from {this.props.compiler} and {this.props.framework}!</h1>
+                <AniClaim />
                 <AniStudy />
                 {/* <LoadingAnalysis />
                 <AniManual /> */}

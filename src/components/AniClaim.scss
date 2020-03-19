@@ -1,0 +1,59 @@
+.claim-animation-container {
+  position: relative;
+  // height: 72px;
+  // width: 95px;
+
+  .claim-char-front, .claim-char-side {
+    .cls-1 { opacity: 0.2; isolation: isolate; }
+    .cls-2 { fill: none; }
+    .cls-2,.cls-3,.cls-6 { stroke: #333; stroke-linecap: round; stroke-linejoin: round; }
+    .cls-2,.cls-3 { stroke-width: 3px; }
+    .cls-3 { fill: gray; }
+    .cls-4,.cls-6 { fill: #fff; }
+    .cls-5 { fill: #e6e6e6; }
+    .cls-6 { stroke-width: 3.5px;}
+  }
+  
+  // .claim-char-side {
+  //   .cls-1 { opacity: 0.2; isolation: isolate; }
+  //   .cls-2 { fill: none; }
+  //   .cls-2,.cls-3,.cls-6 { stroke: #333; stroke-linecap: round; stroke-linejoin: round; }
+  //   .cls-2,.cls-3 { stroke-width: 3px; }
+  //   .cls-3 { fill: gray; }
+  //   .cls-4,.cls-6 { fill: #fff; }
+  //   .cls-5 { fill: #e6e6e6; }
+  //   .cls-6 { stroke-width: 3.5px; }
+  // }
+  .hammer {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    .cls-1 {
+      fill: #f06464;
+    }
+    .cls-2 {
+      fill: #ffb300;
+    }
+    .cls-2,
+    .cls-5 {
+      stroke: #333;
+    }
+    .cls-2,
+    .cls-4,
+    .cls-5 {
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 3px;
+    }
+    .cls-3 {
+      fill: #e53935;
+    }
+    .cls-4,
+    .cls-5 {
+      fill: none;
+    }
+    .cls-4 {
+      stroke: #fbb;
+    }
+  }
+}
