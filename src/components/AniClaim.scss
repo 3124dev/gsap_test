@@ -1,9 +1,17 @@
 .claim-animation-container {
   position: relative;
+  margin: 24px 24px 0 24px;
   // height: 72px;
   // width: 95px;
 
+  // .claim-char-front {
+  //   width: 72px;
+  //   height: 95px;
+  // }
   .claim-char-front, .claim-char-side {
+    display: inline-block;
+    width: 72px;
+    height: 95px;
     .cls-1 { opacity: 0.2; isolation: isolate; }
     .cls-2 { fill: none; }
     .cls-2,.cls-3,.cls-6 { stroke: #333; stroke-linecap: round; stroke-linejoin: round; }
@@ -14,16 +22,6 @@
     .cls-6 { stroke-width: 3.5px;}
   }
   
-  // .claim-char-side {
-  //   .cls-1 { opacity: 0.2; isolation: isolate; }
-  //   .cls-2 { fill: none; }
-  //   .cls-2,.cls-3,.cls-6 { stroke: #333; stroke-linecap: round; stroke-linejoin: round; }
-  //   .cls-2,.cls-3 { stroke-width: 3px; }
-  //   .cls-3 { fill: gray; }
-  //   .cls-4,.cls-6 { fill: #fff; }
-  //   .cls-5 { fill: #e6e6e6; }
-  //   .cls-6 { stroke-width: 3.5px; }
-  // }
   .hammer {
     position: absolute;
     top: -10px;
@@ -54,6 +52,36 @@
     }
     .cls-4 {
       stroke: #fbb;
+    }
+  }
+
+  .receipt {
+    margin: 0 0 0 30px;
+    display: inline-block;
+    .cls-1 {
+      fill: #fff;
+      stroke: #333;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 3px;
+    }
+    .cls-2 {
+      fill: #ccc;
+    }
+    .cls-3 {
+      fill: #4a4a4a;
+    }
+  }
+
+  .coin {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    .cls-1 {
+      fill: #ffb300;
+    }
+    .cls-2 {
+      fill: #ffecb3;
     }
   }
 }

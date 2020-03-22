@@ -86,25 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniBug.scss":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniBug.scss ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".bug-box {\n  width: 48px;\n  height: 48px;\n  position: relative;\n  display: inline-block; }\n  .bug-box .st01 {\n    fill: none;\n    stroke: #FFB300;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .bug-box .bug-legs {\n    position: absolute; }\n  .bug-box .left-leg0 {\n    top: 16px;\n    left: 8px; }\n  .bug-box .left-leg1 {\n    top: 24px;\n    left: 7px; }\n  .bug-box .left-leg2 {\n    top: 32px;\n    left: 8px; }\n  .bug-box .right-leg0 {\n    top: 16px;\n    right: 8px; }\n  .bug-box .right-leg1 {\n    top: 24px;\n    right: 7px; }\n  .bug-box .right-leg2 {\n    top: 32px;\n    right: 8px; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniClaim.scss":
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniClaim.scss ***!
@@ -117,17 +98,17 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".claim-animation-container {\n  position: relative; }\n  .claim-animation-container .claim-char-front .cls-1, .claim-animation-container .claim-char-side .cls-1 {\n    opacity: 0.2;\n    isolation: isolate; }\n  .claim-animation-container .claim-char-front .cls-2, .claim-animation-container .claim-char-side .cls-2 {\n    fill: none; }\n  .claim-animation-container .claim-char-front .cls-2, .claim-animation-container .claim-char-front .cls-3, .claim-animation-container .claim-char-front .cls-6, .claim-animation-container .claim-char-side .cls-2, .claim-animation-container .claim-char-side .cls-3, .claim-animation-container .claim-char-side .cls-6 {\n    stroke: #333;\n    stroke-linecap: round;\n    stroke-linejoin: round; }\n  .claim-animation-container .claim-char-front .cls-2, .claim-animation-container .claim-char-front .cls-3, .claim-animation-container .claim-char-side .cls-2, .claim-animation-container .claim-char-side .cls-3 {\n    stroke-width: 3px; }\n  .claim-animation-container .claim-char-front .cls-3, .claim-animation-container .claim-char-side .cls-3 {\n    fill: gray; }\n  .claim-animation-container .claim-char-front .cls-4, .claim-animation-container .claim-char-front .cls-6, .claim-animation-container .claim-char-side .cls-4, .claim-animation-container .claim-char-side .cls-6 {\n    fill: #fff; }\n  .claim-animation-container .claim-char-front .cls-5, .claim-animation-container .claim-char-side .cls-5 {\n    fill: #e6e6e6; }\n  .claim-animation-container .claim-char-front .cls-6, .claim-animation-container .claim-char-side .cls-6 {\n    stroke-width: 3.5px; }\n  .claim-animation-container .hammer {\n    position: absolute;\n    top: -10px;\n    left: 0px; }\n    .claim-animation-container .hammer .cls-1 {\n      fill: #f06464; }\n    .claim-animation-container .hammer .cls-2 {\n      fill: #ffb300; }\n    .claim-animation-container .hammer .cls-2,\n    .claim-animation-container .hammer .cls-5 {\n      stroke: #333; }\n    .claim-animation-container .hammer .cls-2,\n    .claim-animation-container .hammer .cls-4,\n    .claim-animation-container .hammer .cls-5 {\n      stroke-linecap: round;\n      stroke-linejoin: round;\n      stroke-width: 3px; }\n    .claim-animation-container .hammer .cls-3 {\n      fill: #e53935; }\n    .claim-animation-container .hammer .cls-4,\n    .claim-animation-container .hammer .cls-5 {\n      fill: none; }\n    .claim-animation-container .hammer .cls-4 {\n      stroke: #fbb; }\n", ""]);
+exports.push([module.i, ".claim-animation-container {\n  position: relative;\n  margin: 24px 24px 0 24px; }\n  .claim-animation-container .claim-char-front, .claim-animation-container .claim-char-side {\n    display: inline-block;\n    width: 72px;\n    height: 95px; }\n    .claim-animation-container .claim-char-front .cls-1, .claim-animation-container .claim-char-side .cls-1 {\n      opacity: 0.2;\n      isolation: isolate; }\n    .claim-animation-container .claim-char-front .cls-2, .claim-animation-container .claim-char-side .cls-2 {\n      fill: none; }\n    .claim-animation-container .claim-char-front .cls-2, .claim-animation-container .claim-char-front .cls-3, .claim-animation-container .claim-char-front .cls-6, .claim-animation-container .claim-char-side .cls-2, .claim-animation-container .claim-char-side .cls-3, .claim-animation-container .claim-char-side .cls-6 {\n      stroke: #333;\n      stroke-linecap: round;\n      stroke-linejoin: round; }\n    .claim-animation-container .claim-char-front .cls-2, .claim-animation-container .claim-char-front .cls-3, .claim-animation-container .claim-char-side .cls-2, .claim-animation-container .claim-char-side .cls-3 {\n      stroke-width: 3px; }\n    .claim-animation-container .claim-char-front .cls-3, .claim-animation-container .claim-char-side .cls-3 {\n      fill: gray; }\n    .claim-animation-container .claim-char-front .cls-4, .claim-animation-container .claim-char-front .cls-6, .claim-animation-container .claim-char-side .cls-4, .claim-animation-container .claim-char-side .cls-6 {\n      fill: #fff; }\n    .claim-animation-container .claim-char-front .cls-5, .claim-animation-container .claim-char-side .cls-5 {\n      fill: #e6e6e6; }\n    .claim-animation-container .claim-char-front .cls-6, .claim-animation-container .claim-char-side .cls-6 {\n      stroke-width: 3.5px; }\n  .claim-animation-container .hammer {\n    position: absolute;\n    top: -10px;\n    left: 0px; }\n    .claim-animation-container .hammer .cls-1 {\n      fill: #f06464; }\n    .claim-animation-container .hammer .cls-2 {\n      fill: #ffb300; }\n    .claim-animation-container .hammer .cls-2,\n    .claim-animation-container .hammer .cls-5 {\n      stroke: #333; }\n    .claim-animation-container .hammer .cls-2,\n    .claim-animation-container .hammer .cls-4,\n    .claim-animation-container .hammer .cls-5 {\n      stroke-linecap: round;\n      stroke-linejoin: round;\n      stroke-width: 3px; }\n    .claim-animation-container .hammer .cls-3 {\n      fill: #e53935; }\n    .claim-animation-container .hammer .cls-4,\n    .claim-animation-container .hammer .cls-5 {\n      fill: none; }\n    .claim-animation-container .hammer .cls-4 {\n      stroke: #fbb; }\n  .claim-animation-container .receipt {\n    margin: 0 0 0 30px;\n    display: inline-block; }\n    .claim-animation-container .receipt .cls-1 {\n      fill: #fff;\n      stroke: #333;\n      stroke-linecap: round;\n      stroke-linejoin: round;\n      stroke-width: 3px; }\n    .claim-animation-container .receipt .cls-2 {\n      fill: #ccc; }\n    .claim-animation-container .receipt .cls-3 {\n      fill: #4a4a4a; }\n  .claim-animation-container .coin {\n    display: inline-block;\n    height: 32px;\n    width: 32px; }\n    .claim-animation-container .coin .cls-1 {\n      fill: #ffb300; }\n    .claim-animation-container .coin .cls-2 {\n      fill: #ffecb3; }\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniHold.scss":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniHold.scss ***!
-  \******************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/Hello.scss":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/Hello.scss ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -136,45 +117,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".hold-ani-box {\n  position: relative;\n  margin: 34px auto;\n  width: 48px;\n  height: 48px; }\n  .hold-ani-box .st0 {\n    fill: none;\n    stroke: #9B9B9B;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .hold-ani-box .st1 {\n    opacity: 0.3;\n    fill: none;\n    stroke: #9B9B9B;\n    stroke-width: 6;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .hold-ani-box .st2 {\n    opacity: 0.7;\n    fill: none;\n    stroke: #9B9B9B;\n    stroke-width: 6;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .hold-ani-box .st3 {\n    opacity: 0.5;\n    fill: none;\n    stroke: #9B9B9B;\n    stroke-width: 6;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .hold-ani-box .st4 {\n    fill: #9B9B9B; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniStudy.scss":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniStudy.scss ***!
-  \*******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".study-animation-contianer {\n  position: relative;\n  height: 140px;\n  width: 240px; }\n  .study-animation-contianer .arm {\n    fill: #FFFFFF;\n    stroke: #333333;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .stick {\n    fill: none;\n    stroke: #808080;\n    stroke-width: 2;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .st1 {\n    fill: none;\n    stroke: #333333;\n    stroke-width: 4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .st2 {\n    fill: #FFFFFF;\n    stroke: #333333;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .st3 {\n    fill: #808080;\n    stroke: #333333;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .st4 {\n    fill: #FFFFFF; }\n  .study-animation-contianer .st5 {\n    fill: #E6E6E6; }\n  .study-animation-contianer .st6 {\n    fill: none;\n    stroke: #333333;\n    stroke-width: 4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .st7 {\n    fill: none;\n    stroke: #333333;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .st8 {\n    fill: #FFFFFF;\n    stroke: #333333;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .st9 {\n    fill: #FFFFFF;\n    stroke: #333333;\n    stroke-width: 2;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .paper {\n    fill: #FFFFFF;\n    stroke: #cccccc;\n    stroke-width: 2;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .study-animation-contianer .study-char {\n    z-index: 2;\n    position: relative;\n    height: 140px;\n    width: 240px;\n    padding: 0 0 0 100px; }\n    .study-animation-contianer .study-char .charStick {\n      opacity: 0; }\n  .study-animation-contianer .study-bg {\n    z-index: 1;\n    position: absolute;\n    top: 12px;\n    left: 0; }\n    .study-animation-contianer .study-bg .paper {\n      opacity: 0; }\n  .study-animation-contianer .best-title {\n    z-index: 2;\n    position: absolute;\n    opacity: 0;\n    top: 0;\n    left: 72px; }\n    .study-animation-contianer .best-title .crown {\n      width: 48px;\n      height: 48px;\n      background-color: yellow; }\n    .study-animation-contianer .best-title p {\n      margin: 0;\n      padding: 10px 0 0 0;\n      text-align: center; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniVirus.scss":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniVirus.scss ***!
-  \*******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".virus-box {\n  width: 48px;\n  height: 48px;\n  position: relative;\n  display: inline-block; }\n  .virus-box .st01 {\n    fill: none;\n    stroke: #F06464;\n    stroke-width: 3;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n    stroke-miterlimit: 10; }\n  .virus-box .st02 {\n    fill: #F06464; }\n  .virus-box .left-eye {\n    position: absolute;\n    top: 17px;\n    left: 15px; }\n  .virus-box .right-eye {\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .virus-box .mouse {\n    position: absolute;\n    top: 25px;\n    right: 20px; }\n", ""]);
+exports.push([module.i, ".test-container {\n  width: 320px;\n  margin: 0 20px; }\n  .test-container .top-container {\n    position: relative; }\n    .test-container .top-container .title {\n      padding-bottom: 80px; }\n      .test-container .top-container .title h1, .test-container .top-container .title h3 {\n        margin: 0; }\n      .test-container .top-container .title h1 {\n        font-size: 24px;\n        line-height: 32px;\n        padding: 5px 0;\n        font-weight: bold; }\n      .test-container .top-container .title h3 {\n        font-weight: normal;\n        font-size: 14px;\n        color: #4A4A4A;\n        line-height: 16px;\n        padding: 13px 0; }\n    .test-container .top-container .input-container {\n      position: absolute;\n      bottom: -96px;\n      z-index: 10;\n      width: 100%;\n      height: 100px;\n      background-color: #fff; }\n      .test-container .top-container .input-container input {\n        width: 100%;\n        height: 54px;\n        border: 1px solid #EBEBEB;\n        box-sizing: border-box;\n        text-indent: 20px;\n        font-size: 16px; }\n      .test-container .top-container .input-container p {\n        margin: 0;\n        color: #4A4A4A;\n        padding: 10px;\n        font-size: 14px;\n        text-align: center; }\n  .test-container .bottom-container {\n    position: relative;\n    margin-top: 160px; }\n    .test-container .bottom-container button {\n      border: 0;\n      border-radius: 4px;\n      width: 100%;\n      height: 54px;\n      line-height: 54px;\n      background-color: #5B8DEF;\n      color: #fff;\n      text-align: center;\n      font-size: 16px;\n      font-weight: bold; }\n", ""]);
 
 // exports
 
@@ -9407,140 +9350,6 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./src/components/AniBug.scss":
-/*!************************************!*\
-  !*** ./src/components/AniBug.scss ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./AniBug.scss */ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniBug.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./src/components/AniBug.tsx":
-/*!***********************************!*\
-  !*** ./src/components/AniBug.tsx ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "react");
-var gsap_1 = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
-__webpack_require__(/*! ./AniBug.scss */ "./src/components/AniBug.scss");
-var AniBug = /** @class */ (function (_super) {
-    __extends(AniBug, _super);
-    function AniBug() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.timeLine = new gsap_1.TimelineMax({ repeat: -1, repeatDelay: 2 });
-        _this.legsLeft = [];
-        _this.legsRight = [];
-        _this.bugBody = null;
-        _this._legs_left = function (idx) {
-            var legs = [];
-            var _loop_1 = function (i) {
-                legs.push(React.createElement("svg", { className: "bug-legs left-leg" + i, key: "l" + i, ref: function (ref) { return _this.legsLeft[i] = ref; }, width: "8", height: "3" },
-                    React.createElement("line", { className: "st01", x1: "1.5", y1: "1.5", x2: "6.5", y2: "1.5" })));
-            };
-            for (var i = 0; i < idx; i++) {
-                _loop_1(i);
-            }
-            return legs;
-        };
-        _this._legs_right = function (idx) {
-            var legs = [];
-            var _loop_2 = function (i) {
-                legs.push(React.createElement("svg", { className: "bug-legs right-leg" + i, key: "r" + i, ref: function (ref) { return _this.legsRight[i] = ref; }, width: "8", height: "3" },
-                    React.createElement("line", { className: "st01", x1: "1.5", y1: "1.5", x2: "6.5", y2: "1.5" })));
-            };
-            for (var i = 0; i < idx; i++) {
-                _loop_2(i);
-            }
-            return legs;
-        };
-        return _this;
-    }
-    AniBug.prototype.componentDidMount = function () {
-        this.playAnimation();
-    };
-    AniBug.prototype.render = function () {
-        var _this = this;
-        return (React.createElement("div", { className: "bug-box" },
-            React.createElement("svg", { ref: function (ref) { return _this.bugBody = ref; }, height: "48", width: "48" },
-                React.createElement("g", null,
-                    React.createElement("line", { className: "st01", x1: "16", y1: "8", x2: "18.8", y2: "10.8" }),
-                    React.createElement("line", { className: "st01", x1: "29.2", y1: "10.9", x2: "32", y2: "8.1" }),
-                    React.createElement("line", { className: "st01", x1: "21", y1: "22", x2: "27", y2: "22" }),
-                    React.createElement("line", { className: "st01", x1: "21", y1: "30", x2: "27", y2: "30" }),
-                    React.createElement("path", { className: "st01", d: "M14,21c0-5.5,4.5-10,10-10s10,4.5,10,10v10c0,5.5-4.5,10-10,10s-10-4.5-10-10V21z" }))),
-            this._legs_left(3),
-            this._legs_right(3)));
-    };
-    AniBug.prototype.playAnimation = function () {
-        this.timeLine
-            .staggerTo(this.legsLeft, 0, { transformOrigin: "right bottom" }, 0)
-            .staggerTo(this.legsRight, 0, { transformOrigin: "left top" }, 0)
-            .to(this.bugBody, 0.1, { scale: 0.95 })
-            .to(this.bugBody, 0.1, { scale: 1 })
-            .to(this.bugBody, 0.1, { scale: 0.95 })
-            .to(this.bugBody, 0.1, { scale: 1 })
-            .to(this.legsLeft[0], 0.3, { rotation: '-=15' })
-            .to(this.legsRight[2], 0.3, { rotation: '-=15' })
-            .to(this.legsLeft[1], 0.3, { scaleX: 0.8 })
-            .to(this.legsRight[1], 0.3, { scaleX: 0.8 })
-            .to(this.legsLeft[2], 0.3, { rotation: '-=15' })
-            .to(this.legsRight[0], 0.3, { rotation: '-=15' })
-            .to(this.bugBody, 0.1, { scale: 0.95 })
-            .to(this.bugBody, 0.1, { scale: 1 })
-            .to(this.legsLeft[0], 0.3, { rotation: '+=15' })
-            .to(this.legsRight[2], 0.3, { rotation: '+=15' })
-            .to(this.legsLeft[1], 0.3, { scaleX: 1 })
-            .to(this.legsRight[1], 0.3, { scaleX: 1 })
-            .to(this.legsLeft[2], 0.3, { rotation: '+=15' })
-            .to(this.legsRight[0], 0.3, { rotation: '+=15' });
-    };
-    return AniBug;
-}(React.Component));
-exports.AniBug = AniBug;
-
-
-/***/ }),
-
 /***/ "./src/components/AniClaim.scss":
 /*!**************************************!*\
   !*** ./src/components/AniClaim.scss ***!
@@ -9601,13 +9410,18 @@ var AniClaim = /** @class */ (function (_super) {
     __extends(AniClaim, _super);
     function AniClaim() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.charTimeLine01 = new gsap_1.TimelineMax({ repeat: -1 });
+        _this.charTimeLine = new gsap_1.TimelineMax({ repeat: -1 });
+        _this.receiptTimeLine = new gsap_1.TimelineMax({ repeat: -1 });
+        _this.coinTimeLine01 = new gsap_1.TimelineMax({ repeat: -1 });
+        _this.coinTimeLine02 = new gsap_1.TimelineMax({ repeat: -1 });
         _this.charFront = null;
         _this.charSide = null;
         // private charArm: any = null;
         _this.hammer = null;
+        _this.receipt = null;
+        _this.coin = null;
         _this.claimCharFront = function () {
-            return (React.createElement("svg", { height: "95", width: "72", className: "claim-char-front" },
+            return (React.createElement("svg", { height: "95", width: "72" },
                 React.createElement("ellipse", { className: "cls-1", cx: "35.98", cy: "90.88", rx: "26.12", ry: "4.12" }),
                 React.createElement("line", { className: "cls-2", x1: "42.86", y1: "72.86", x2: "39.63", y2: "90.14" }),
                 React.createElement("line", { className: "cls-2", x1: "29.8", y1: "72.86", x2: "33.02", y2: "90.14" }),
@@ -9626,7 +9440,7 @@ var AniClaim = /** @class */ (function (_super) {
                 React.createElement("line", { className: "cls-2", x1: "67.09", y1: "46.13", x2: "64.73", y2: "70.68" })));
         };
         _this.claimCharSide = function () {
-            return (React.createElement("svg", { height: "95", width: "72", className: "claim-char-side" },
+            return (React.createElement("svg", { height: "95", width: "72" },
                 React.createElement("ellipse", { className: "cls-1", cx: "35.98", cy: "90.88", rx: "26.12", ry: "4.12" }),
                 React.createElement("line", { className: "cls-2", x1: "42.86", y1: "72.86", x2: "39.63", y2: "90.14" }),
                 React.createElement("line", { className: "cls-2", x1: "29.8", y1: "72.86", x2: "33.02", y2: "90.14" }),
@@ -9651,31 +9465,73 @@ var AniClaim = /** @class */ (function (_super) {
                 React.createElement("rect", { className: "cls-2", x: "21.58", y: "1.86", width: "10.85", height: "27.48" }),
                 React.createElement("line", { className: "cls-5", x1: "1.68", y1: "65.49", x2: "25.18", y2: "60.49" })));
         };
+        _this.receiptComp = function () {
+            return (React.createElement("svg", { height: "75", width: "67" },
+                React.createElement("rect", { className: "cls-1", x: "1.5", y: "1.5", width: "64", height: "72" }),
+                React.createElement("rect", { className: "cls-2", x: "9.14", y: "29.59", width: "49.45", height: "2.91" }),
+                React.createElement("rect", { className: "cls-2", x: "9.14", y: "41.23", width: "49.45", height: "2.91" }),
+                React.createElement("rect", { className: "cls-2", x: "9.14", y: "52.86", width: "49.45", height: "2.91" }),
+                React.createElement("path", { className: "cls-3", d: "M14.2,10.8h6.33v1.66H18.45a4.25,4.25,0,0,0,.06.71A3.32,3.32,0,0,0,21,15.62l-1.1,1.6a4.67,4.67,0,0,1-2.5-2.14,4.26,4.26,0,0,1-2.73,2.38l-1-1.62a3.39,3.39,0,0,0,2.6-2.63,6.32,6.32,0,0,0,.06-.75H14.2Zm1.25,10.82V17.87H17.5V20h6.29v1.6Zm6.14-3V10.09h2.07v8.57Z" }),
+                React.createElement("path", { className: "cls-3", d: "M35,16.36a30.47,30.47,0,0,1-5.37.4c-.35,0-.73,0-1.06,0V11h5.29v1.57H30.59v2.56h.28a22.23,22.23,0,0,0,3.94-.28ZM29.7,21.58V17.67h2.07V20h6.05v1.59Zm7.87-6.77v3.75H35.5V10.09h2.07v3.05H39v1.67Z" }),
+                React.createElement("path", { className: "cls-3", d: "M48.78,19.36a5.94,5.94,0,0,1-2.48-2.79,5.56,5.56,0,0,1-2.59,3.05L42.45,18c2.1-1.07,2.8-2.88,2.8-5.5V11h2.06V12.5c0,2.57.67,4.31,2.66,5.25Zm1.87,2.52V15.75H48.7V14h1.95V10.09h2.07V21.88Z" })));
+        };
+        _this.coinComp = function () {
+            return (React.createElement("svg", { height: "32", width: "32" },
+                React.createElement("path", { className: "cls-1", d: "M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z" }),
+                React.createElement("circle", { className: "cls-2", cx: "16", cy: "16", r: "13.38" }),
+                React.createElement("path", { className: "cls-1", d: "M23.56,12.8h-.43l.43-1.6a1.06,1.06,0,1,0-2-.58l-.58,2h-3.2L17,10.47a1.08,1.08,0,0,0-2,0l-.73,2.18h-3.2l-.58-2a1.06,1.06,0,1,0-2,.58l.43,1.6H8.44A1.15,1.15,0,0,0,7.27,14a1.08,1.08,0,0,0,1.17,1.17h1l1.9,7.12a1.54,1.54,0,0,0,1,.88,1.08,1.08,0,0,0,1-.73l2.47-7.27h.44l2.47,7.27a1.1,1.1,0,0,0,1,.73h0a1.06,1.06,0,0,0,1-.88l1.89-7.12h1A1.15,1.15,0,0,0,24.87,14,1.27,1.27,0,0,0,23.56,12.8ZM12.51,18,11.64,15h1.89Zm7,0-1-3.06h1.89Z" })));
+        };
         return _this;
     }
     AniClaim.prototype.componentDidMount = function () {
-        this.charTimeLine01
+        this.charTimeLine
             .set(this.hammer, { opacity: '0', rotation: '0', x: 43, y: -10, transformOrigin: "left bottom" })
             .set(this.charSide, { display: "none" })
-            .set(this.charFront, { delay: 2, display: "block" })
+            .set(this.charFront, { delay: 2, display: "inline-block" }) // 2
             .to(this.charFront, 0, { display: "none" })
-            .to(this.charSide, 0, { display: "block" })
+            .to(this.charSide, 0, { display: "inline-block" })
             .set(this.hammer, { opacity: '1', rotation: '+90' })
-            .to(this.hammer, 0.2, { rotation: '-=180' })
-            .to(this.hammer, 1, { rotation: '-=10' })
-            .to(this.hammer, 0.1, { rotation: '+=180' })
-            .to(this.hammer, 0.2, { rotation: '-=140' })
-            .to(this.hammer, 0.1, { rotation: '+=150' })
-            .to(this.hammer, 0.2, { rotation: '-=150' });
-        // .set([this.charArm, this.hammer], {transformOrigin:"center top"})
-        // .set(this.hammer, {opacity: '1', transformOrigin:"center center"})
+            .to(this.hammer, 0.2, { rotation: '-=180' }) // 2.2
+            .to(this.hammer, 0.6, { rotation: '-=10' }) // 2.8
+            .to(this.hammer, 0.1, { rotation: '+=140' }) // 2.9
+            .to(this.hammer, 0.2, { rotation: '-=120' }) // 3.1
+            .to(this.hammer, 0.1, { rotation: '+=150' }) // 3.2
+            .to(this.hammer, 0.2, { rotation: '+=0' }) // 3.4
+            .to(this.charFront, 0, { display: "inline-block" })
+            .to([this.charSide, this.hammer], 0, { display: "none" })
+            .to(this.charSide, 2, {}); // 5.4
+        this.receiptTimeLine
+            .set(this.receipt, { x: 0, y: -10, opacity: 0, transformOrigin: "center center" })
+            .to(this.receipt, 0.8, { opacity: 1, y: '+=20' })
+            .to(this.receipt, 0.1, { y: '+=5' })
+            .to(this.receipt, 0.1, {}) // 1
+            .to(this.receipt, 0.1, { y: '+=5' })
+            .to(this.receipt, 0.2, {})
+            .to(this.receipt, 0.2, { y: '+=10' }) // 1.5
+            .to(this.receipt, 1.4, {}) // 2.9
+            .to(this.receipt, 0.2, { y: '+=15' }) // 3.1
+            .to(this.receipt, 0.1, {}) // 3.2
+            .to(this.receipt, 0.2, { y: '+=30' }) // 3.4
+            .to(this.receipt, 0, { opacity: 0 })
+            .to(this.receipt, 2, {}); // 5.4
+        this.coinTimeLine01
+            .set(this.coin, { opacity: 0, x: -50, y: 30 })
+            .to(this.coin, 0.5, { delay: 3.1, ease: gsap_1.Power1.easeOut, opacity: 1, y: '-=150' }) // 3.6
+            .to(this.coin, 0.5, { ease: gsap_1.Power1.easeIn, y: '+=150', opacity: 0 }) // 4.1
+            .to(this.coin, 1.3, {}); // 5.4
+        this.coinTimeLine02
+            .set(this.coin, { transformOrigin: "center center" })
+            .to(this.coin, 1, { delay: 3.1, ease: gsap_1.Power1.easeOut, rotationY: '+=900', x: '+=100' }) // 4.1
+            .to(this.coin, 1.3, {}); // 5.4
     };
     AniClaim.prototype.render = function () {
         var _this = this;
         return (React.createElement("div", { className: "claim-animation-container" },
             React.createElement("div", { ref: function (ref) { return _this.charFront = ref; }, className: "claim-char-front" }, this.claimCharFront()),
             React.createElement("div", { ref: function (ref) { return _this.charSide = ref; }, className: "claim-char-side" }, this.claimCharSide()),
-            React.createElement("div", { ref: function (ref) { return _this.hammer = ref; }, className: "hammer" }, this.hammerComp())));
+            React.createElement("div", { ref: function (ref) { return _this.hammer = ref; }, className: "hammer" }, this.hammerComp()),
+            React.createElement("div", { ref: function (ref) { return _this.receipt = ref; }, className: "receipt" }, this.receiptComp()),
+            React.createElement("div", { ref: function (ref) { return _this.coin = ref; }, className: "coin" }, this.coinComp())));
     };
     return AniClaim;
 }(React.Component));
@@ -9684,15 +9540,15 @@ exports.AniClaim = AniClaim;
 
 /***/ }),
 
-/***/ "./src/components/AniHold.scss":
-/*!*************************************!*\
-  !*** ./src/components/AniHold.scss ***!
-  \*************************************/
+/***/ "./src/components/Hello.scss":
+/*!***********************************!*\
+  !*** ./src/components/Hello.scss ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./AniHold.scss */ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniHold.scss");
+var content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./Hello.scss */ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/Hello.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -9711,326 +9567,6 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
-
-/***/ }),
-
-/***/ "./src/components/AniHold.tsx":
-/*!************************************!*\
-  !*** ./src/components/AniHold.tsx ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "react");
-__webpack_require__(/*! ./AniHold.scss */ "./src/components/AniHold.scss");
-var AniHold = /** @class */ (function (_super) {
-    __extends(AniHold, _super);
-    function AniHold() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    AniHold.prototype.render = function () {
-        return (React.createElement("div", { className: "hold-ani-box" },
-            React.createElement("svg", { height: "72", width: "72" },
-                React.createElement("path", { className: "st0", d: "M31.6,39.2c0-2.5,2-4.4,4.4-4.4s4.4,2,4.4,4.4c0,3.4-4.4,3.4-4.4,6.6" }),
-                React.createElement("g", null,
-                    React.createElement("polyline", { className: "st1", points: "6.9,61.2 21.4,36 36,10.8" }),
-                    React.createElement("polyline", { className: "st2", points: "65.1,61.2 36,61.2 6.9,61.2" }),
-                    React.createElement("polyline", { className: "st3", points: "36,10.8 50.6,36 65.1,61.2" })),
-                React.createElement("circle", { className: "st4", cx: "36", cy: "51.1", r: "2" }))));
-    };
-    return AniHold;
-}(React.Component));
-exports.AniHold = AniHold;
-
-
-/***/ }),
-
-/***/ "./src/components/AniStudy.scss":
-/*!**************************************!*\
-  !*** ./src/components/AniStudy.scss ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./AniStudy.scss */ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniStudy.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./src/components/AniStudy.tsx":
-/*!*************************************!*\
-  !*** ./src/components/AniStudy.tsx ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "react");
-var gsap_1 = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
-__webpack_require__(/*! ./AniStudy.scss */ "./src/components/AniStudy.scss");
-var AniStudy = /** @class */ (function (_super) {
-    __extends(AniStudy, _super);
-    function AniStudy() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.charTimeLine01 = new gsap_1.TimelineMax();
-        _this.charTimeLine02 = new gsap_1.TimelineMax({ repeat: -1 });
-        _this.bgTimeLine01 = new gsap_1.TimelineMax();
-        _this.bgTimeLine02 = new gsap_1.TimelineMax();
-        _this.charStick = null;
-        _this.charArm = null;
-        _this.bestPaper = null;
-        _this.bestTitle = null;
-        _this.paper = [];
-        _this.studyChar = function () {
-            return (React.createElement("svg", { height: "140", width: "140" },
-                React.createElement("g", { className: "charArm", ref: function (ref) { return _this.charArm = ref; } },
-                    React.createElement("polygon", { className: "arm", points: "63.4,89.6 57.4,89.6 53.4,80.1 55.4,70.6 61.4,70.6 " })),
-                React.createElement("g", { className: "charStick", ref: function (ref) { return _this.charStick = ref; } },
-                    React.createElement("line", { className: "stick", x1: "37.9", y1: "74.5", x2: "13", y2: "75.1" }),
-                    React.createElement("line", { className: "st1", x1: "35.9", y1: "74.4", x2: "45.9", y2: "75" }),
-                    React.createElement("polyline", { className: "st2", points: "58.2,71.3 43,72.4 43.8,84.3 61.8,83.1" })),
-                React.createElement("g", { key: "body" },
-                    React.createElement("rect", { x: "62.4", y: "59.1", className: "st3", width: "56", height: "10" }),
-                    React.createElement("path", { className: "st4", d: "M90.4,102.1c17.1,0,31-13.6,31-30.4v-3.6h-62v3.6C59.4,88.5,73.3,102.1,90.4,102.1z" }),
-                    React.createElement("path", { className: "st5", d: "M111.3,68.1c-1.7,15.2-14.8,27-30.8,27c-4.5,0-8.8-0.9-12.6-2.6c5.7,5.9,13.7,9.6,22.6,9.6\n                    c17.1,0,31-13.6,31-30.4v-3.6H111.3z" }),
-                    React.createElement("path", { className: "st4", d: "M90.4,22.1c-17.1,0-31,13.6-31,30.4v9.6h62v-9.6C121.4,35.7,107.6,22.1,90.4,22.1z" }),
-                    React.createElement("path", { className: "st5", d: "M90.4,22.1c-1.7,0-3.4,0.1-5,0.4c14.7,2.3,26,14.9,26,30v9.6h10v-9.6C121.4,35.7,107.6,22.1,90.4,22.1z" }),
-                    React.createElement("line", { className: "st6", x1: "100.4", y1: "97.1", x2: "100.4", y2: "117.1" }),
-                    React.createElement("line", { className: "st6", x1: "80.4", y1: "97.1", x2: "80.4", y2: "117.1" }),
-                    React.createElement("path", { className: "st7", d: "M90.4,22.1c-17.1,0-31,13.6-31,30.4v9.6h62v-9.6C121.4,35.7,107.6,22.1,90.4,22.1z" }),
-                    React.createElement("path", { className: "st7", d: "M90.4,102.1c17.1,0,31-13.6,31-30.4v-3.6h-62v3.6C59.4,88.5,73.3,102.1,90.4,102.1z" }),
-                    React.createElement("polyline", { className: "st8", points: "58.2,81.6 61.4,105.1 86.4,105.1 86.4,75.1 75.4,68.1 58.4,68.1 57.5,71.3 \t" }),
-                    React.createElement("path", { className: "st8", d: "M126.7,82.3l-4.2-14.2v0h-17l-11,7v30h26V89.8l2-0.2C125.6,88.8,127.5,85.5,126.7,82.3z" }),
-                    React.createElement("circle", { className: "st8", cx: "108.4", cy: "42.1", r: "15" }),
-                    React.createElement("g", null,
-                        React.createElement("path", { className: "st5", d: "M98.4,42.4h5c0-2.8,2.2-5,5-5v-5C102.9,32.4,98.4,36.9,98.4,42.4z" })),
-                    React.createElement("circle", { className: "st8", cx: "71.4", cy: "42.1", r: "15" }),
-                    React.createElement("g", null,
-                        React.createElement("path", { className: "st5", d: "M61.4,42.4h5c0-2.8,2.2-5,5-5v-5C65.9,32.4,61.4,36.9,61.4,42.4z" })),
-                    React.createElement("rect", { x: "100.4", y: "86.1", className: "st9", width: "14", height: "12" }),
-                    React.createElement("line", { className: "st7", x1: "120.4", y1: "98.1", x2: "120.4", y2: "82.8" }))));
-        };
-        _this.studyBg = function () {
-            var element = [];
-            var _loop_1 = function (i) {
-                element.push(React.createElement("rect", { className: "paper", key: i, ref: function (ref) { return _this.paper[i] = ref; }, x: "2", y: "2", width: "48", height: "62" }));
-            };
-            for (var i = 0; i < 20; i++) {
-                _loop_1(i);
-            }
-            return (React.createElement("svg", { className: "study-bg", height: "72", width: "200" },
-                element,
-                React.createElement("rect", { className: "paper", ref: function (ref) { return _this.bestPaper = ref; }, x: "2", y: "2", width: "48", height: "62" })));
-        };
-        return _this;
-    }
-    AniStudy.prototype.componentDidMount = function () {
-        this.charTimeLine01
-            .set(this.charStick, { delay: 2, rotation: '-=45', transformOrigin: "right top" })
-            .to(this.charArm, 0, { opacity: 0 })
-            .to(this.charStick, 0.2, { opacity: 1, rotation: '+=80' })
-            .to(this.charStick, 0.1, { opacity: 1, rotation: '-=25' });
-        this.charTimeLine02
-            .set(this.charStick, { delay: 3, opacity: 1, transformOrigin: "right top" })
-            .to(this.charStick, 0.1, { delay: 1, opacity: 1, rotation: '+=5', scaleX: 0.9 })
-            .to(this.charStick, 0.1, { opacity: 1, rotation: '-=5', scaleX: 1 })
-            .to(this.charStick, 0.1, { opacity: 1, rotation: '+=5', scaleX: 0.9 })
-            .to(this.charStick, 0.1, { opacity: 1, rotation: '-=5', scaleX: 1 });
-        this.bgTimeLine01
-            .set(this.paper, { transformOrigin: "center center" })
-            .staggerTo(this.paper, 0.5, { x: 140, opacity: 1 }, 0.1)
-            .staggerTo(this.paper, 0, { opacity: 0 }, 0);
-        this.bgTimeLine02
-            .to(this.bestPaper, 0.25, { delay: 2, x: 70, opacity: 1 })
-            .to(this.bestTitle, 0.3, { delay: 0.2, y: -10, opacity: 1 });
-    };
-    AniStudy.prototype.render = function () {
-        var _this = this;
-        return (React.createElement("div", { className: "study-animation-contianer" },
-            React.createElement("div", { className: "study-char" }, this.studyChar()),
-            React.createElement("div", { className: "study-bg" }, this.studyBg()),
-            React.createElement("div", { className: "best-title", ref: function (ref) { return _this.bestTitle = ref; } },
-                React.createElement("div", { className: "crown" }),
-                React.createElement("p", null, "Best"))));
-    };
-    return AniStudy;
-}(React.Component));
-exports.AniStudy = AniStudy;
-
-
-/***/ }),
-
-/***/ "./src/components/AniVirus.scss":
-/*!**************************************!*\
-  !*** ./src/components/AniVirus.scss ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./AniVirus.scss */ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./src/components/AniVirus.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./src/components/AniVirus.tsx":
-/*!*************************************!*\
-  !*** ./src/components/AniVirus.tsx ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "react");
-var gsap_1 = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
-__webpack_require__(/*! ./AniVirus.scss */ "./src/components/AniVirus.scss");
-var AniVirus = /** @class */ (function (_super) {
-    __extends(AniVirus, _super);
-    function AniVirus() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.timeLine = new gsap_1.TimelineMax({ repeat: -1, repeatDelay: 2 });
-        _this.virusBody = null;
-        _this.leftEye = null;
-        _this.rightEye = null;
-        _this.mouse = null;
-        _this._eye_left = function () {
-            return (React.createElement("svg", { className: "left-eye", ref: function (ref) { return _this.leftEye = ref; }, width: "5.5", height: "5.5" },
-                React.createElement("line", { className: "st01", x1: "1.5", y1: "1.5", x2: "4", y2: "4" })));
-        };
-        _this._eye_right = function () {
-            return (React.createElement("svg", { className: "right-eye", ref: function (ref) { return _this.rightEye = ref; }, width: "5.5", height: "5.5" },
-                React.createElement("line", { className: "st01", x1: "1.5", y1: "4", x2: "4", y2: "1.5" })));
-        };
-        _this._mouse = function () {
-            return (React.createElement("svg", { className: "mouse", ref: function (ref) { return _this.mouse = ref; }, width: "3", height: "3" },
-                React.createElement("circle", { className: "st02", cx: "1.5", cy: "1.5", r: "1.5" })));
-        };
-        return _this;
-    }
-    AniVirus.prototype.componentDidMount = function () {
-        this.playAnimation();
-    };
-    AniVirus.prototype.render = function () {
-        var _this = this;
-        return (React.createElement("div", { className: "virus-box" },
-            React.createElement("svg", { ref: function (ref) { return _this.virusBody = ref; }, height: "48", width: "48" },
-                React.createElement("g", null,
-                    React.createElement("circle", { className: "st01", cx: "24", cy: "24", r: "15" }),
-                    React.createElement("line", { className: "st01", x1: "9", y1: "24", x2: "5.5", y2: "24" }),
-                    React.createElement("line", { className: "st01", x1: "42.5", y1: "24", x2: "36", y2: "24" }),
-                    React.createElement("line", { className: "st01", x1: "24", y1: "36", x2: "24", y2: "42.5" }),
-                    React.createElement("line", { className: "st01", x1: "24", y1: "5.5", x2: "24", y2: "9" }),
-                    React.createElement("line", { className: "st01", x1: "34.6", y1: "34.6", x2: "37.1", y2: "37.1" }),
-                    React.createElement("line", { className: "st01", x1: "10.9", y1: "10.9", x2: "13.4", y2: "13.4" }),
-                    React.createElement("line", { className: "st01", x1: "34.6", y1: "13.4", x2: "37.1", y2: "10.9" }),
-                    React.createElement("line", { className: "st01", x1: "10.9", y1: "37.1", x2: "13.4", y2: "34.6" }))),
-            this._eye_left(),
-            this._eye_right(),
-            this._mouse()));
-    };
-    AniVirus.prototype.playAnimation = function () {
-        this.timeLine
-            .to(this.virusBody, 0.1, { scale: 0.95 }, "+=1")
-            .to(this.virusBody, 0.1, { scale: 1 })
-            .to(this.leftEye, 0.1, { y: '-=2' })
-            .to(this.rightEye, 0.1, { y: '-=2' })
-            .to(this.mouse, 0.1, { scale: 1.5 })
-            .to(this.leftEye, 0.1, { y: '+=2' })
-            .to(this.rightEye, 0.1, { y: '+=2' })
-            .to(this.virusBody, 0.1, { scale: 0.95 })
-            .to(this.virusBody, 0.1, { scale: 1 })
-            .to(this.mouse, 0.1, { x: '+=1' })
-            .to(this.mouse, 0.1, { x: '-=2' })
-            .to(this.mouse, 0.1, { x: '+=1' })
-            .to(this.mouse, 0.1, { x: '-=1' })
-            .to(this.mouse, 0.1, { x: '+=1' })
-            .to(this.mouse, 0.1, { scale: 1 });
-    };
-    return AniVirus;
-}(React.Component));
-exports.AniVirus = AniVirus;
-
 
 /***/ }),
 
@@ -10060,29 +9596,29 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(/*! react */ "react");
 // import { AniManual } from "./AniManual";
 // import { LoadingAnalysis } from "./LoadingAnalysis";
-var AniBug_1 = __webpack_require__(/*! ./AniBug */ "./src/components/AniBug.tsx");
-var AniVirus_1 = __webpack_require__(/*! ./AniVirus */ "./src/components/AniVirus.tsx");
-var AniHold_1 = __webpack_require__(/*! ./AniHold */ "./src/components/AniHold.tsx");
-var AniStudy_1 = __webpack_require__(/*! ./AniStudy */ "./src/components/AniStudy.tsx");
+// import { AniBug } from "./AniBug";
+// import { AniVirus } from "./AniVirus";
+// import { AniHold } from "./AniHold";
+// import { AniStudy } from "./AniStudy";
 var AniClaim_1 = __webpack_require__(/*! ./AniClaim */ "./src/components/AniClaim.tsx");
+__webpack_require__(/*! ./Hello.scss */ "./src/components/Hello.scss");
 var Hello = /** @class */ (function (_super) {
     __extends(Hello, _super);
     function Hello() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Hello.prototype.render = function () {
-        return (React.createElement("div", null,
-            React.createElement("h1", null,
-                "Hello from ",
-                this.props.compiler,
-                " and ",
-                this.props.framework,
-                "!"),
-            React.createElement(AniClaim_1.AniClaim, null),
-            React.createElement(AniStudy_1.AniStudy, null),
-            React.createElement(AniHold_1.AniHold, null),
-            React.createElement(AniBug_1.AniBug, null),
-            React.createElement(AniVirus_1.AniVirus, null)));
+        return (React.createElement("div", { className: "test-container" },
+            React.createElement("div", { className: "top-container" },
+                React.createElement("div", { className: "title" },
+                    React.createElement("h1", null, "\uCCAD\uAD6C"),
+                    React.createElement("h3", null, "\uD578\uB4DC\uD3F0\uC73C\uB85C \uC27D\uAC8C, \uBCD1\uC6D0\uBE44 \uB3CC\uB824\uBC1B\uB294 \uAC04\uD3B8\uCCAD\uAD6C")),
+                React.createElement(AniClaim_1.AniClaim, null),
+                React.createElement("div", { className: "input-container" },
+                    React.createElement("input", { placeholder: "\uAC10\uAE30" }),
+                    React.createElement("p", null, "\uCCAD\uAD6C\uD560 \uB0B4\uC6A9\uC744 \uC785\uB825\uD574\uBCF4\uC138\uC694"))),
+            React.createElement("div", { className: "bottom-container" },
+                React.createElement("button", null, "\uAC04\uD3B8\uCCAD\uAD6C \uBC14\uB85C\uAC00\uAE30"))));
     };
     return Hello;
 }(React.Component));
