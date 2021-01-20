@@ -27,7 +27,7 @@
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.2",
     "css-loader": "^1.0.0",
-    "gsap": "^2.1.2",
+    "gsap": "^3.6.0",
     "local-web-server": "^4.0.0",
     "node-sass": "^4.9.3",
     "react": "^16.8.4",
