@@ -29,7 +29,7 @@
     "css-loader": "^1.0.0",
     "gsap": "^2.1.2",
     "local-web-server": "^4.0.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "sass-loader": "^7.1.0",
